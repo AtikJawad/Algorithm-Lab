@@ -8,7 +8,7 @@
 import random as r
 
 def merge_sort(arr):
-    if len(arr) <= 1:
+    if len(arr) <= 1: # Will run into infinite Loop if not provided
         return arr
     middle= len(arr)//2 # Equivalent to int(len(arr)/2) but faster
 
