@@ -1,0 +1,4 @@
+- Use any sorting algorithm to sort between 500 to 1000 numbers.  
+- The numbers should be randomly generated, each ranging from greater than 100 to less than 1000.  
+- Use a random function to generate these numbers.  
+- Print the sorted output to a file (not on the terminal).  
