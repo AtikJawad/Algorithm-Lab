@@ -42,12 +42,15 @@ num_elements=r.randint(500, 1000)
 
 unsorted_list=[]
 for i in range(num_elements):
-    unsorted_list.append(r.randint(101, 999)) # as per condition
+    random_num=r.randint(101, 999)  # as per condition
+    
+    if random_num not in unsorted_list: # prevents the repetition of same numbers
+        unsorted_list.append(random_num)
 
 sorted_list = merge_sort(unsorted_list)
 
 #Saving the sorted list onto a File
-file_name="C:/Users/hands/Desktop/output.txt"
+file_name="C:/Users/hands/Desktop/output.txt" 
 
 
 with open(file=file_name, mode="w") as file:
