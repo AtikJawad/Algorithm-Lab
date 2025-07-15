@@ -54,8 +54,18 @@ file_name="C:/Users/hands/Desktop/output.txt"
 
 
 with open(file=file_name, mode="w") as file:
+    
+    file.write(f"Unsorted List: \n")
+    file.write("---------------  \n")    
+    for number in unsorted_list:
+        file.write(f"{number}  ")
+
+    file.write("\n\n")
+
+    file.write(f"Sorted List: \n")
+    file.write("--------------- \n")      
     for number in sorted_list:
-        file.write(f"{number}\n")
+        file.write(f"{number}  ")
 
 print("The file is created!!")
 print(f"Total {num_elements} numbers are sorted in the file")
