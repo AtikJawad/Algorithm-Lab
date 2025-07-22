@@ -1,0 +1,10 @@
+Input:
+1. A text file containing number of vertices and number of edges in 2 separate lines
+2. The next lines will be the same number of lines of edge where connection of every vertices is shown with a weight (e.g. A, B, 2 / B, C , 5)
+3. The next 2 lines will be 2 strings mentioning DIrected or Undirected and Weighted or Unweighted
+
+Ouput:
+1. the program must read the inputs from the file 
+2. create an adjacency matrix showing the data in the terminal
+3. Use HashMap for vertice to index conversion
+[Must Use Java For it]
