@@ -1,0 +1,8 @@
+4
+4
+A,B,2
+B,C,3
+C,D,4
+A,D,10
+Undirected
+Weighted
