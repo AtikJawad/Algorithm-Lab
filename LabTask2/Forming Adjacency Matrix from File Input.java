@@ -12,12 +12,12 @@ public class Main {
 
             BufferedReader br = new BufferedReader(new FileReader(filePath));
 
-            int vCount = Integer.parseInt(br.readLine().trim()); // 1st line of file
-            int eCount = Integer.parseInt(br.readLine().trim()); // 2nd line of file
+            int vCount = Integer.parseInt(br.readLine().trim()); // 1st line of file... Counting the Vertices
+            int eCount = Integer.parseInt(br.readLine().trim()); // 2nd line of file... Counting the Edges
 
             HashMap<String, Integer> map = new HashMap<>(); // Initializing HashMap for storing Key,Value pairs
 
-            String[] IndexTOVertex = new String[vCount];
+            String[] IndexTOVertex = new String[vCount]; // only for bautification of the matrix (for Rows and columns like A B C D)
             int[][] matrix = new int[vCount][vCount];
             int index = 0;
 
