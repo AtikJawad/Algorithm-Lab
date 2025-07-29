@@ -1,0 +1,2 @@
+Read input from text file and apply BFS on it.
+Additionally, try to print every steps in the algorithm indicating, vertex name, parent name, distance, color.
