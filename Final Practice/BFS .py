@@ -66,6 +66,24 @@ for edge in edgelines:
 
 bfs(vertices, adj, 0)
 
+# if user input is asked from terminal.....
+
+# verticelist= input("enter vertices with space (A B ..) : ").split()
+# n_vert = len(verticelist)
+# vertices = [vertex(name) for name in verticelist ]
+# adj = [[0 for col in range(n_vert)] for row in range(n_vert)]
+# 
+# while True:
+#     edge= input("Insert edges (1 0/ 2 3) & press q to stop: ")
+#     if edge == 'q':
+#         break
+#     u,v = map(int, edge.split())
+#     adj[u][v] = 1
+#     adj[v][u] = 1
+# 
+# bfs( vertices, adj, 0)
+
+
 
 
 
