@@ -52,3 +52,23 @@ for _ in range(n):
 
 traverse = dfs(n)
 traverse.DFS(adj)
+
+# filename="E:\\Studies\\Uni\\2-2\\Design & Analysis of Algorithm\\Algo lab\\input files\\DFS input.txt"
+# with open(filename, "r") as f:
+#     lines = [line.strip() for line in f.readlines()]
+# 
+# n_vert = int(lines[0])
+# 
+# 
+# adj = [[0 for col in range(n_vert)] for row in range(n_vert)]
+# 
+# edgelines= lines[1:]
+# 
+# for edge in edgelines:
+#     u,v = map(int, edge.split())
+#     adj[u][v] = 1
+#     adj [v][u] = 1
+# 
+# dfs = DFS(n_vert)
+# dfs.doDFS(adj)
+
